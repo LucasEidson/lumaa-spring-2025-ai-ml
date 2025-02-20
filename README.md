@@ -5,8 +5,8 @@
 
 
 # Setup
--Requires numpy (comes with anaconda python environment or use `pip install numpy`).
--Run loadData.py after any changes to dataset or if preprocessed.csv or tfidf_data.pkl are missing.
+- Requires numpy (comes with anaconda python environment or use `pip install numpy`).
+- Run loadData.py after any changes to dataset or if preprocessed.csv or tfidf_data.pkl are missing.
 
 
 # Running
@@ -14,4 +14,4 @@
 
 
 # Results
--TODO: Short video sample running the code.
+- TODO: Short video sample running the code.
