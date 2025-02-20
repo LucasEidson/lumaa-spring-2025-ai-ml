@@ -4,12 +4,14 @@ import re
 from loadData import createMovieList
 
 PREPROCESSED_PATH = 'preprocessed.csv'
-TOP_N = 5 #number of recommendations
+TOP_N = 3 #number of recommendations
 
 def main():
     #query is a single sentence so IDF Vector is just 1
     query = input("What kind of movies would you like me to find?\n")
-    query = query.lower()
+    #the result of the query will be more accurate if you avoid things like "i like movies with ...",
+    #and instead just say "action comedy set in space"
+    query = query.lower() 
     query = re.sub(r'[^\w\s]','', query) #remove punctuation
     with open("tfidf_data.pkl", "rb") as file:
         termScores = pickle.load(file)
@@ -18,8 +20,10 @@ def main():
     vocab = getVocab(queryTF, termScores)
     print("Here are my top ", TOP_N, " recommendations for you:")
     similarities, movies = sortBySimilarity(termScores, queryTF, vocab, movies)
-    for i in range(TOP_N):
-        print(movies[i].title, similarities[i])
+    for i in range(TOP_N): #movies also stores info like genre, rating, and plot description
+        print("Movie Title: ", movies[i].title)
+        print("TF-IDF Similarity Score: ", similarities[i])
+        print()
 
 
 def sortBySimilarity(termScores, queryTF, vocab, movies):
