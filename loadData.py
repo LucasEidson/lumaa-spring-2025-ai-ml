@@ -3,7 +3,7 @@ import math
 import pickle
 import re
 
-DATA_PATH = 'movie_plots.csv' #from https://www.kaggle.com/datasets/kartikeychauhan/movie-plots
+DATA_PATH = 'movie_plots500.csv' #altered from https://www.kaggle.com/datasets/kartikeychauhan/movie-plots
 PREPROCESSED_PATH = 'preprocessed.csv'
 NUM_MOVIES = 500
 RELEVANT_COLUMNS = "title", "year", "genre", "plot", "imdb_rating",
