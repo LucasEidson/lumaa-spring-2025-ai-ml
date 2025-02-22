@@ -16,16 +16,5 @@
 
 # Results
 
-- Sample Input: "I love thrilling action movies set in space, with a comedic twist."
-- Output:
-`Here are my top  3  recommendations for you:
-Movie Title:  way... way out
-TF-IDF Similarity Score:  0.07298806265080758
-
-Movie Title:  vague stars of ursa...
-TF-IDF Similarity Score:  0.050747406170966326
-
-Movie Title:  motorpsycho!
-TF-IDF Similarity Score:  0.044036393310579576`
 - [demo.md](https://github.com/user-attachments/files/18924064/demo.md)
 
