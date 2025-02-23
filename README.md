@@ -20,4 +20,4 @@
 
 # Salary Expectation:
 
-- 1500 - 1800$ monthly. 
+- 1600 - 1800$ monthly. 
