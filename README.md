@@ -18,3 +18,6 @@
 
 - [Demo video Youtube link.](https://youtu.be/0L4kbb0Y2BM)
 
+# Salary Expectation:
+
+- 1500 - 1800$ monthly. 
