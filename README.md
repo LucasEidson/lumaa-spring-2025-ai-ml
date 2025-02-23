@@ -16,6 +16,7 @@
 
 # Results
 
+- Genre TF Values are weighted double (I did this because I think genre values are more likely to be relevant to the query).
 - [Demo video Youtube link.](https://youtu.be/0L4kbb0Y2BM)
 
 # Salary Expectation:
